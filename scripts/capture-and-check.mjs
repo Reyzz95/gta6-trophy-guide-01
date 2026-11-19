@@ -1,7 +1,7 @@
 // Run with a local Playwright installation: PLAYWRIGHT_MODULE=/path/to/playwright-core/index.mjs node scripts/capture-and-check.mjs
 // This checks real browser interactions and captures only browser-rendered pixels.
 import { spawn } from 'node:child_process';
-import { mkdir, writeFile, readdir, unlink } from 'node:fs/promises';
+import { mkdir, writeFile, readdir, unlink, stat } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { pathToFileURL } from 'node:url';
 const modulePath = process.env.PLAYWRIGHT_MODULE || 'playwright';
@@ -74,6 +74,11 @@ try {
   assert.equal(await page.locator('#spoilers').isChecked(),true);
   await page.locator('[data-kind="story"]').click();
   await page.screenshot({path:'screenshots/4-spoiler.jpg',type:'jpeg',quality:80});
+  for (const name of ['1-checklist', '2-guide', '3-roadmap', '4-spoiler']) {
+    const capture = await stat(`screenshots/${name}.jpg`);
+    assert.ok(capture.isFile() && capture.size > 0, `${name}: screenshot must be a non-empty file`);
+    assert.ok(capture.size <= 262144, `${name}: screenshot exceeds the 256 KiB submission limit`);
+  }
   assert.deepEqual(errors,[]);assert.deepEqual(unexpectedRequests,[]);
   await context.setOffline(true);await page.locator('[data-kind="missable"]').click();
   assert.equal(await page.locator('.trophy-row').count(),1);

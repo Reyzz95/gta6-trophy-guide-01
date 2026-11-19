@@ -7,7 +7,13 @@ const filters = { kind: 'all', grade: 'all', status: 'all', search: '' };
 let trophies = [];
 let selectedId = 28;
 const isShielded = trophy => state.spoilers && trophy.kind === 'story' && !state.earned.has(trophy.name);
-function notify(message) { $('#toast').textContent = message; $('#toast').classList.add('visible'); setTimeout(() => $('#toast').classList.remove('visible'), 4200); }
+let toastTimeout;
+function notify(message) {
+  clearTimeout(toastTimeout);
+  $('#toast').textContent = message;
+  $('#toast').classList.add('visible');
+  toastTimeout = setTimeout(() => $('#toast').classList.remove('visible'), 4200);
+}
 function persistProgress() { const saved = saveProgress(state); $('#save-state').textContent = saved ? '● Saved on this device' : '⚠ Storage unavailable · export a backup'; }
 function updateProgressHeader() {
   const earned = state.earned.size;

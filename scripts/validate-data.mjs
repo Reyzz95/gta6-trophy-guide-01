@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 const {trophies}=JSON.parse(readFileSync('app/data/trophies.json','utf8'));
 assert.equal(trophies.length,55);
 assert.equal(new Set(trophies.map(t=>t.name)).size,55);
+assert.deepEqual(trophies.map(t=>t.id).sort((a,b)=>a-b),Array.from({length:55},(_,index)=>index+1),'Trophy IDs must uniquely cover 1–55 for checklist controls and routes');
 for (const [grade,total] of Object.entries({platinum:1,gold:2,silver:6,bronze:46}))assert.equal(trophies.filter(t=>t.grade===grade).length,total);
 assert.equal(trophies.filter(t=>t.hidden).length,28);
 assert.deepEqual(trophies.filter(t=>t.missable).map(t=>t.name),['Positive Mental Attitude']);
