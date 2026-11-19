@@ -1,23 +1,99 @@
 const STORAGE_KEY = 'leonida-field-guide-v1';
+const FORMAT_VERSION = 1;
+const MAX_BACKUP_BYTES = 100000;
+
+function emptyProgress() {
+  return { earned: new Set(), spoilers: true };
+}
+
+function progressRecord(state) {
+  return {
+    version: FORMAT_VERSION,
+    earned: [...state.earned],
+    spoilers: state.spoilers !== false
+  };
+}
+
+function decodeRecord(record) {
+  if (!record || typeof record !== 'object' || Array.isArray(record)) {
+    throw new Error('Choose a valid trophy progress backup.');
+  }
+  if (!Array.isArray(record.earned)) {
+    throw new Error('The backup needs a valid trophy list.');
+  }
+  if (record.earned.some(name => typeof name !== 'string')) {
+    throw new Error('Every entry must be a valid trophy name.');
+  }
+  if (record.version !== undefined && record.version !== FORMAT_VERSION) {
+    throw new Error('This progress backup uses an unsupported version.');
+  }
+  if (record.spoilers !== undefined && typeof record.spoilers !== 'boolean') {
+    throw new Error('The spoiler setting must be true or false.');
+  }
+  return {
+    earned: new Set(record.earned),
+    spoilers: record.spoilers
+  };
+}
+
 export function readProgress() {
-  try { const value = JSON.parse(localStorage.getItem(STORAGE_KEY)); return { earned: new Set(Array.isArray(value?.earned) ? value.earned : []), spoilers: value?.spoilers !== false }; }
-  catch { return { earned: new Set(), spoilers: true }; }
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (!stored) return emptyProgress();
+    const decoded = decodeRecord(JSON.parse(stored));
+    return {
+      earned: decoded.earned,
+      spoilers: decoded.spoilers !== false
+    };
+  } catch {
+    return emptyProgress();
+  }
 }
+
 export function saveProgress(state) {
-  try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ earned: [...state.earned], spoilers: state.spoilers })); return true; }
-  catch { return false; }
+  try {
+    const record = progressRecord(state);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(record));
+    return true;
+  } catch {
+    return false;
+  }
 }
+
 export function exportProgress(state) {
-  const content = { format: 'leonida-progress-v1', earned: [...state.earned], spoilers: state.spoilers };
-  const url = URL.createObjectURL(new Blob([JSON.stringify(content, null, 2)], { type: 'application/json' }));
-  const link = Object.assign(document.createElement('a'), { href: url, download: 'leonida-trophy-progress.json' });
-  link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+  const record = {
+    ...progressRecord(state),
+    application: 'Leonida Field Guide',
+    exportedAt: new Date().toISOString()
+  };
+  const payload = JSON.stringify(record, null, 2) + '\n';
+  const blob = new Blob([payload], { type: 'application/json' });
+  const objectUrl = URL.createObjectURL(blob);
+  const downloadLink = document.createElement('a');
+  downloadLink.href = objectUrl;
+  downloadLink.download = 'leonida-progress.json';
+  document.body.append(downloadLink);
+  downloadLink.click();
+  downloadLink.remove();
+  setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
 }
+
 export async function importProgress(file, trophies) {
-  const content = JSON.parse(await file.text());
-  if (!content || typeof content !== 'object') throw new Error('Choose a valid trophy progress file. Nothing was changed.');
-  const names = Array.isArray(content) ? content : content.earned;
-  const officialNames = new Set(trophies.map(t => t.name));
-  if (!Array.isArray(names) || names.some(name => typeof name !== 'string' || !officialNames.has(name))) throw new Error('Choose a valid trophy progress file. Nothing was changed.');
-  return { earned: new Set(names), spoilers: typeof content.spoilers === 'boolean' ? content.spoilers : undefined };
+  if (file.size > MAX_BACKUP_BYTES) {
+    throw new Error('This backup is too large for a valid trophy progress file.');
+  }
+  let record;
+  try {
+    record = JSON.parse(await file.text());
+  } catch {
+    throw new Error('Choose a valid trophy progress JSON file.');
+  }
+  const decoded = decodeRecord(record);
+  const officialNames = new Set(trophies.map(trophy => trophy.name));
+  for (const name of decoded.earned) {
+    if (!officialNames.has(name)) {
+      throw new Error('The backup contains a name that is not a valid trophy.');
+    }
+  }
+  return decoded;
 }

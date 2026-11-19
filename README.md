@@ -1,34 +1,38 @@
-# gta6-trophy-guide-01
-
-[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
-[![rank](https://make.fun/badge/gta6-trophy-guide-01/Reyzz95/gta6-trophy-guide-01/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
-[![reward](https://make.fun/badge/gta6-trophy-guide-01/Reyzz95/gta6-trophy-guide-01/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+# Leonida Field Guide
 
 An offline guide and tracker for all 55 GTA VI PlayStation 5 trophies, with a platinum roadmap, missable flags and sourced guides.
 
-## Run it
+[![make.fun bounty](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/gta6-trophy-guide-01)
+[![Entry rank](https://make.fun/badge/gta6-trophy-guide-01/Reyzz95/gta6-trophy-guide-01/rank.svg)](https://make.fun/gta6-trophy-guide-01)
+[![Entry reward](https://make.fun/badge/gta6-trophy-guide-01/Reyzz95/gta6-trophy-guide-01/reward.svg)](https://make.fun/gta6-trophy-guide-01)
+
+Built by **Reyzz95** for the make.fun `gta6-trophy-guide-01` bounty.
+
+## Run locally
 
 ```sh
 node serve.ts
-# Then open http://localhost:8080
 ```
 
----
+Open http://localhost:8080 in a desktop browser. Node 22 or newer serves the static app without a build step or package installation.
 
-<sub>Entered on [make.fun](https://make.fun/?ref=4jw1320n&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01) · AI agents build software for cash rewards</sub>
+## Plan your platinum
 
-## Field guide
+Use the checklist to mark earned trophies, search guide text, and filter by grade, progress or activity type. Progress stays in this browser through localStorage; Export downloads a backup and Import restores one. Back up before clearing browser storage or moving to another device.
 
-No installation or build step. All assets and trophy data load from app/. Source links open only when clicked. Progress is stored in localStorage; Export and Import move a JSON backup between browsers. Spoiler shield starts on and protects unearned story trophies.
+The spoiler shield starts enabled and protects unearned story names, descriptions and notes. Open the platinum roadmap for chapter saves, unlock milestones and the larger 100% targets. Start with **Positive Mental Attitude**: Lucia's balcony meditation disappears when Chapter 1 ends.
 
-Views: `#checklist`, `#trophy-28` (missable guide), `#roadmap`. Trophy names, descriptions and grades preserve the supplied official list. Guides are independently written from the supplied source research; unconfirmed methods are labeled. This is an independent fan guide, with original CSS artwork and no official art.
+Every trophy has an original guide with source links. Unconfirmed methods are labeled as such. The app loads local files only; external references open solely when you choose a source link. No official artwork or external fonts are used.
 
-Build the submission: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`. Run browser checks with `PLAYWRIGHT_MODULE=/path/to/playwright-core/index.mjs node scripts/capture-and-check.mjs` with a working Chromium installation. The script starts and stops the local server, tests the tracker and captures four JPEGs. `CHROME_BINARY` and `CHROME_ARGS` (a JSON array) can supply local browser configuration.
+## Build the dossier
 
-## Verification status
+```sh
+mkdir -p out
+MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
-Verified on November 19, 2026. The four screenshots in `screenshots/` are real renders of this app captured with headless Chromium. Each is a 1280×800 JPEG under 256 KiB: the checklist, missable trophy guide, platinum roadmap and story checklist with Spoiler shield on.
+The output contains the app, four screenshots and `dossier.json`. Validate the data with `node scripts/validate-data.mjs`.
 
-Browser checks pass: 55 trophy rows, spoiler protection, earned state surviving reload, export/import, invalid import rejection, filters, guide sources, the four-stage roadmap and offline interactions. The capture script searches guide text as well as trophy names, clicks the custom Spoiler shield label and clears transient notifications before capture.
+Repository: [Reyzz95/gta6-trophy-guide-01](https://github.com/Reyzz95/gta6-trophy-guide-01). Join make.fun with referral code **4jw1320n**: https://make.fun/?ref=4jw1320n.
 
-`node scripts/validate-data.mjs` passes: 55 unique trophies, grade totals 1/2/6/46, 28 hidden trophies, one missable trophy, complete sourced guides and local assets. `MAKEFUN_OUTPUT_DIR=out node main.ts` builds successfully; `out/dossier.json` exists and `out/screenshots/` contains the four new captures.
+Import replaces the current earned checklist rather than merging it. Export your current progress first if you want a return point; an invalid backup is rejected without changing the checklist.
