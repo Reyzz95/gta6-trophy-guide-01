@@ -1,392 +1,1548 @@
 {
- "game": "Grand Theft Auto VI",
- "platform": "PlayStation 5",
- "list": "the official 55 trophies, 2026-11-18",
- "trophies": [
-  {
-   "id": 1,
-   "name": "Vice Got a Price!",
-   "description": "Congratulations! You're a Leonida Legend.",
-   "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
-  },
-  {
-   "id": 2,
-   "name": "Just Like Paradise",
-   "description": "Complete Gone Fishing.",
-   "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
-  },
-  {
-   "id": 3,
-   "name": "Paradise Lost",
-   "description": "Complete Chapter 1.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 1."
-  },
-  {
-   "id": 4,
-   "name": "T**s Ass Drug Money",
-   "description": "Complete Chapter 2.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 2."
-  },
-  {
-   "id": 5,
-   "name": "Vice City, Baby!",
-   "description": "Complete Chapter 3.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 3."
-  },
-  {
-   "id": 6,
-   "name": "Top Of The World, Ma",
-   "description": "Complete Chapter 4.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 4."
-  },
-  {
-   "id": 7,
-   "name": "You Gotta Know When to Get Off",
-   "description": "Complete the final mission.",
-   "grade": "gold",
-   "guide": "Finish the final mission (gold)."
-  },
-  {
-   "id": 8,
-   "name": "Trust",
-   "description": "Complete Breakfast Run.",
-   "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
-  },
-  {
-   "id": 9,
-   "name": "Break the Bank",
-   "description": "Complete The Cartel Heist.",
-   "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
-  },
-  {
-   "id": 10,
-   "name": "Family Matters",
-   "description": "Complete Child's Play.",
-   "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
-  },
-  {
-   "id": 11,
-   "name": "DWNFALL",
-   "description": "Complete Headliners.",
-   "grade": "bronze",
-   "guide": "Finish the mission Headliners."
-  },
-  {
-   "id": 12,
-   "name": "Hi-Jacked",
-   "description": "Complete VCIA Takedown.",
-   "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
-  },
-  {
-   "id": 13,
-   "name": "Snow Storm",
-   "description": "Complete Operation Savage Glory.",
-   "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
-  },
-  {
-   "id": 14,
-   "name": "A Long Road",
-   "description": "Attain 100% Completion.",
-   "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
-  },
-  {
-   "id": 15,
-   "name": "Cunning Stunts",
-   "description": "Complete 250 Stunts.",
-   "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
-  },
-  {
-   "id": 16,
-   "name": "Master of None",
-   "description": "Try each type of activity once.",
-   "grade": "bronze",
-   "guide": "Try all 9 activity types once."
-  },
-  {
-   "id": 17,
-   "name": "The Shootist",
-   "description": "Earn a gold medal in all Shooting Range challenges.",
-   "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
-  },
-  {
-   "id": 18,
-   "name": "Top Fun",
-   "description": "Win a Top Fun Drone Race at every location.",
-   "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
-  },
-  {
-   "id": 19,
-   "name": "Earn Cash, Not Kudos",
-   "description": "Win 20 different races.",
-   "grade": "bronze",
-   "guide": "Win 20 different races."
-  },
-  {
-   "id": 20,
-   "name": "Baited My Tackle",
-   "description": "Beat Cal in a fishing challenge.",
-   "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
-  },
-  {
-   "id": 21,
-   "name": "Stick Fiddler",
-   "description": "Complete an arcade game.",
-   "grade": "bronze",
-   "guide": "Finish one arcade game."
-  },
-  {
-   "id": 22,
-   "name": "Road to Rehabilitation",
-   "description": "Complete the final mission for Andy.",
-   "grade": "bronze",
-   "guide": "Finish Andy's last mission."
-  },
-  {
-   "id": 23,
-   "name": "This Was No Boat Accident",
-   "description": "Complete the final mission for Kenton.",
-   "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
-  },
-  {
-   "id": 24,
-   "name": "The Lone Rider",
-   "description": "Complete the final mission for Billy.",
-   "grade": "bronze",
-   "guide": "Finish Billy's last mission."
-  },
-  {
-   "id": 25,
-   "name": "Strangers & Freaks",
-   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
-   "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
-  },
-  {
-   "id": 26,
-   "name": "Supply & Demand",
-   "description": "Complete the final mission for Randy.",
-   "grade": "bronze",
-   "guide": "Finish Randy's last mission."
-  },
-  {
-   "id": 27,
-   "name": "Spin On This!",
-   "description": "Complete the final mission for Tyrone.",
-   "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
-  },
-  {
-   "id": 28,
-   "name": "Positive Mental Attitude",
-   "description": "Meditate at every spot across Leonida.",
-   "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
-  },
-  {
-   "id": 29,
-   "name": "Fair Game",
-   "description": "Hunt a unique animal for Bret.",
-   "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
-  },
-  {
-   "id": 30,
-   "name": "Don't Touch My Deck",
-   "description": "Complete 3 Collectible Card sets.",
-   "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
-  },
-  {
-   "id": 31,
-   "name": "You WAiNKer!",
-   "description": "WAiNK It at 100 locations.",
-   "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
-  },
-  {
-   "id": 32,
-   "name": "One Last Thing",
-   "description": "Complete 50 Challenges.",
-   "grade": "bronze",
-   "guide": "Finish 50 challenges."
-  },
-  {
-   "id": 33,
-   "name": "Hot Together",
-   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
-   "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
-  },
-  {
-   "id": 34,
-   "name": "Retail Therapy",
-   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
-   "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
-  },
-  {
-   "id": 35,
-   "name": "Whip It Good",
-   "description": "Discover 100 vehicles.",
-   "grade": "bronze",
-   "guide": "Discover 100 vehicles."
-  },
-  {
-   "id": 36,
-   "name": "Gunslinger",
-   "description": "Take down 5 enemies in a single use of Combat Focus.",
-   "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
-  },
-  {
-   "id": 37,
-   "name": "Catch Me If You Can",
-   "description": "Make an unscheduled departure at VCIA.",
-   "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
-  },
-  {
-   "id": 38,
-   "name": "Challenging Tank",
-   "description": "Kinda hot in these Rhinos.",
-   "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
-  },
-  {
-   "id": 39,
-   "name": "Sneakthief",
-   "description": "Rob a jewelry store without being detected.",
-   "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
-  },
-  {
-   "id": 40,
-   "name": "Maximum Withdrawal",
-   "description": "Rob 5 Bank Vaults and escape.",
-   "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
-  },
-  {
-   "id": 41,
-   "name": "A Classic Blitz Play",
-   "description": "Rob an Armored Truck and escape.",
-   "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
-  },
-  {
-   "id": 42,
-   "name": "The Goodtime State",
-   "description": "Explore all of Leonida.",
-   "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
-  },
-  {
-   "id": 43,
-   "name": "Pest Control",
-   "description": "Rob an Illegal Operation belonging to each gang.",
-   "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
-  },
-  {
-   "id": 44,
-   "name": "In The Beginning…",
-   "description": "Enjoy a cocktail with a view on Ocean Beach.",
-   "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
-  },
-  {
-   "id": 45,
-   "name": "Capital Offense",
-   "description": "Smash your way out of a vehicle showroom in classic style.",
-   "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
-  },
-  {
-   "id": 46,
-   "name": "Let’s Go Bowling",
-   "description": "Follow-through at the Kolt & Associates' bowling alley.",
-   "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
-  },
-  {
-   "id": 47,
-   "name": "Personal Best",
-   "description": "A partnership with mass appeal.",
-   "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
-  },
-  {
-   "id": 48,
-   "name": "Actions Speak Louder",
-   "description": "Choices made (for better or worse).",
-   "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
-  },
-  {
-   "id": 49,
-   "name": "Bad Luck, I Guess",
-   "description": "Second time's the charm.",
-   "grade": "bronze",
-   "guide": "Succeed on a second try."
-  },
-  {
-   "id": 50,
-   "name": "The Truth Is Out There",
-   "description": "What the hell just happened?",
-   "grade": "bronze",
-   "guide": "Witness something strange."
-  },
-  {
-   "id": 51,
-   "name": "Ten Pin",
-   "description": "Bowl 'em over with a melee drive-by.",
-   "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
-  },
-  {
-   "id": 52,
-   "name": "Dime on the Dollar",
-   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
-   "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
-  },
-  {
-   "id": 53,
-   "name": "Treat Yo Self",
-   "description": "Spend $100,000 across all shops.",
-   "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
-  },
-  {
-   "id": 54,
-   "name": "Little Boxes",
-   "description": "Purchase all garage properties.",
-   "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
-  },
-  {
-   "id": 55,
-   "name": "On the Spot",
-   "description": "Register 10 vehicles to the Scooter Bros app.",
-   "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
-  }
- ]
+  "game": "Grand Theft Auto VI",
+  "platform": "PlayStation 5",
+  "list": "the official 55 trophies, 2026-11-18",
+  "trophies": [
+    {
+      "id": 1,
+      "name": "Vice Got a Price!",
+      "description": "Congratulations! You're a Leonida Legend.",
+      "grade": "platinum",
+      "guide": "Earn all other 54 trophies to become a Leonida Legend. Plan for about 200 hours and a single playthrough; there is no mission replay or New Game Plus. Use the 15 manual save slots alongside the autosave: preserve a save at each chapter's start and another immediately before the final mission. Never enable cheats, which disable both trophies and saving. The key early risk is Positive Mental Attitude: finish Lucia's Chapter 1 balcony meditation before moving on.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Just Like Paradise",
+      "description": "Complete Gone Fishing.",
+      "grade": "bronze",
+      "guide": "Complete Gone Fishing. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Paradise Lost",
+      "description": "Complete Chapter 1.",
+      "grade": "bronze",
+      "guide": "Complete Chapter 1. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "T**s Ass Drug Money",
+      "description": "Complete Chapter 2.",
+      "grade": "bronze",
+      "guide": "Complete Chapter 2. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vice City, Baby!",
+      "description": "Complete Chapter 3.",
+      "grade": "bronze",
+      "guide": "Complete Chapter 3. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Top Of The World, Ma",
+      "description": "Complete Chapter 4.",
+      "grade": "bronze",
+      "guide": "Complete Chapter 4. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "You Gotta Know When to Get Off",
+      "description": "Complete the final mission.",
+      "grade": "gold",
+      "guide": "Complete the final mission. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Trust",
+      "description": "Complete Breakfast Run.",
+      "grade": "bronze",
+      "guide": "Complete Breakfast Run. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Break the Bank",
+      "description": "Complete The Cartel Heist.",
+      "grade": "bronze",
+      "guide": "Complete The Cartel Heist. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Family Matters",
+      "description": "Complete Child's Play.",
+      "grade": "bronze",
+      "guide": "Complete Child's Play. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DWNFALL",
+      "description": "Complete Headliners.",
+      "grade": "bronze",
+      "guide": "Complete Headliners. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Hi-Jacked",
+      "description": "Complete VCIA Takedown.",
+      "grade": "bronze",
+      "guide": "Complete VCIA Takedown. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Snow Storm",
+      "description": "Complete Operation Savage Glory.",
+      "grade": "bronze",
+      "guide": "Complete Operation Savage Glory. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "A Long Road",
+      "description": "Attain 100% Completion.",
+      "grade": "gold",
+      "guide": "Finish the story to reveal Progress > Stats > 100% Completion; earlier work still counts even though the checklist is not yet visible. Complete the story missions and Strangers & Freaks strands, then reconcile the checklist against 300 stunts, 42 Shooting Range gold medals, 8 bank vaults and 39 illegal operations. Discover 200 of the 277 vehicle models and finish 70 of the 80 Challenges. Several trophy thresholds are lower than the 100% targets, so keep recording discoveries and stunts after their trophies unlock. Preserve your chapter saves, especially for the Chapter 1 meditation.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cunning Stunts",
+      "description": "Complete 250 Stunts.",
+      "grade": "silver",
+      "guide": "Complete 250 stunts across stunt jumps, under-bridge flights, knife flights and base jumps. Work through one region and stunt type at a time, noting successful completions so you avoid repeating routes. This silver is only an intermediate milestone: A Long Road needs 300 stunts. No exclusive story window is identified for this trophy; return with suitable vehicles during cleanup.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Master of None",
+      "description": "Try each type of activity once.",
+      "grade": "bronze",
+      "guide": "Try every type of activity at least once rather than repeatedly playing a favorite. Keep a simple record as you sample races, minigames and other activities discovered around Leonida. The complete activity-type checklist is not confirmed in the supplied guidance, so use the game's progress information to identify what remains. No exclusive chapter window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Shootist",
+      "description": "Earn a gold medal in all Shooting Range challenges.",
+      "grade": "silver",
+      "guide": "Earn all 42 gold medals spread across the two Shooting Ranges. Visit both ranges and work through every challenge, checking medal results rather than just completion. Practice the events still below gold and return when your aim is consistent. All 42 golds also contribute to 100% completion; no exclusive story window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Top Fun",
+      "description": "Win a Top Fun Drone Race at every location.",
+      "grade": "bronze",
+      "guide": "Win a Top Fun Drone Race at each of the 14 locations. Track locations individually: repeated wins at one course cannot substitute for visiting the others. Learn each route before pushing for a winning run and check the result before leaving. No chapter-specific cutoff is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Earn Cash, Not Kudos",
+      "description": "Win 20 different races.",
+      "grade": "bronze",
+      "guide": "Win 20 different races; repeat victories on the same course do not fill a new slot. Record each unique course you win while exploring. In Chapter 3, save before the hourglass-marked Race Against Yago and race as soon as it appears because that encounter is time-sensitive. This trophy itself is not marked missable.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Baited My Tackle",
+      "description": "Beat Cal in a fishing challenge.",
+      "grade": "bronze",
+      "guide": "Find Cal's fishing challenge and beat Cal's result. Familiarize yourself with the fishing controls before attempting the challenge, then play through to the final outcome. An exact winning route or gear requirement is not confirmed in the supplied guidance. No exclusive chapter window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Stick Fiddler",
+      "description": "Complete an arcade game.",
+      "grade": "bronze",
+      "guide": "Play an arcade game all the way to its completion condition; starting a cabinet is not enough. Choose a game you can learn, practice its controls and finish a full successful run. A specific required cabinet or shortcut is not confirmed. No chapter-specific cutoff is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Road to Rehabilitation",
+      "description": "Complete the final mission for Andy.",
+      "grade": "bronze",
+      "guide": "Complete the final mission for Andy. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "This Was No Boat Accident",
+      "description": "Complete the final mission for Kenton.",
+      "grade": "bronze",
+      "guide": "Complete the final mission for Kenton. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "The Lone Rider",
+      "description": "Complete the final mission for Billy.",
+      "grade": "bronze",
+      "guide": "Complete the final mission for Billy. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Strangers & Freaks",
+      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+      "grade": "silver",
+      "guide": "Complete eight full stranger mission strands across Leonida, following each chain through its concluding mission. Andy, Billy and Tyrone have separate trophies and their questlines do not count toward these eight. During Chapter 3, keep a save and immediately take Race Against Yago when its hourglass icon appears; it is time-sensitive. Check completed strands rather than counting individual missions, and preserve chapter saves for that optional encounter.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Supply & Demand",
+      "description": "Complete the final mission for Randy.",
+      "grade": "bronze",
+      "guide": "Complete the final mission for Randy. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Spin On This!",
+      "description": "Complete the final mission for Tyrone.",
+      "grade": "bronze",
+      "guide": "Complete the final mission for Tyrone. Follow the relevant mission chain through its completion; the trophy unlocks as you finish, without an additional medal requirement in the official condition. This story or character-mission completion trophy is unmissable as you play its strand. Keep a manual save at the start of each chapter, using the 15 manual slots, and save again before the final mission because mission replay and New Game Plus are unavailable. Before leaving Chapter 1, separately complete Lucia's balcony meditation for Positive Mental Attitude.",
+      "hidden": true,
+      "missable": false,
+      "kind": "story",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Positive Mental Attitude",
+      "description": "Meditate at every spot across Leonida.",
+      "grade": "bronze",
+      "guide": "Meditate at all 18 spots across Leonida. The critical stop is Lucia's balcony meditation in Chapter 1: after Lucia is home, check the kitchen in the morning and follow her to the balcony of Jason's house. Do this before Chapter 1 ends; the opportunity disappears afterward, and there is no mission replay or New Game Plus to recover it. Keep a Chapter 1 manual save until the trophy unlocks, then finish the remaining meditation spots as you explore. Reported but unconfirmed: meditating at an outdoor spot with your partner may count twice. Bring your partner if convenient, but do not rely on that report to skip any of the 18 spots.",
+      "hidden": false,
+      "missable": true,
+      "kind": "missable",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Fair Game",
+      "description": "Hunt a unique animal for Bret.",
+      "grade": "bronze",
+      "guide": "Play Jason's hunting questline for Bret and hunt a unique animal requested there. Aim for a clean head or heart shot to preserve the carcass in pristine condition. Follow Bret's available requests rather than assuming an ordinary animal qualifies. No exclusive story cutoff is identified for this hidden trophy.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Don't Touch My Deck",
+      "description": "Complete 3 Collectible Card sets.",
+      "grade": "silver",
+      "guide": "Finish three complete Collectible Card sets, checking your collection for missing cards rather than counting loose finds. Collect cards while clearing neighborhoods and review set completion before moving on. The supplied facts do not confirm every card's location, so no exact pickup route is asserted here. No exclusive chapter window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "collectible",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "You WAiNKer!",
+      "description": "WAiNK It at 100 locations.",
+      "grade": "silver",
+      "guide": "Use WAiNK It at 100 distinct locations. Work through neighborhoods systematically and record locations already completed to avoid spending time at repeats. Vehicle scanning belongs to vehicle discovery, so keep that count separate from this location target. No exclusive story window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "collectible",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "One Last Thing",
+      "description": "Complete 50 Challenges.",
+      "grade": "bronze",
+      "guide": "Complete 50 Challenges from Progress > Challenges. Pick available tasks you can combine with exploration and keep checking the menu for completion credit. Continue after the trophy if pursuing platinum: 100% requires 70 of the 80 Challenges. No exclusive chapter cutoff is identified for this trophy.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Hot Together",
+      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+      "grade": "bronze",
+      "guide": "Bring your partner, reach a four-star Wanted Level and escape both the pursuit and the remaining heat. Robbing a bank vault and escaping together can earn this while working on Maximum Withdrawal. Stay together until the escape is complete rather than stopping as soon as the visible police break off. No exclusive chapter window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Retail Therapy",
+      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+      "grade": "bronze",
+      "guide": "Call your partner first, then rob three shops in succession while keeping an active Wanted Level throughout. Plan a short route between shops before starting. If the stars disappear and only the red heat zone remains, the chain is broken and you must start again. After the third robbery, allow roughly 30 seconds for the trophy notification. This can be retried and is not the list's missable trophy.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Whip It Good",
+      "description": "Discover 100 vehicles.",
+      "grade": "bronze",
+      "guide": "Discover 100 vehicles; scanning a vehicle with the WAiNK app counts as a discovery. Scan unfamiliar models during ordinary travel and check your collection rather than registering duplicate variants as new progress. For 100% completion, carry on to 200 of the 277 base models. No exclusive chapter window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "collectible",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Gunslinger",
+      "description": "Take down 5 enemies in a single use of Combat Focus.",
+      "grade": "bronze",
+      "guide": "Take down five enemies during one activation of Combat Focus. While aiming, press L3 + R3 to slow time; choose a group and use an assault rifle so you can move quickly between targets. Adrenaline extends the Focus window and can help if it expires too early. Save before a suitable encounter if you want a convenient retry; no exclusive mission is required by the supplied facts.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Catch Me If You Can",
+      "description": "Make an unscheduled departure at VCIA.",
+      "grade": "bronze",
+      "guide": "Save before approaching Vice City International Airport, since police respond quickly. Steal a large passenger plane parked at a boarding bridge; gates E3 and E4 are reported working departure points. Fly approximately one kilometer away from the airport to trigger the trophy. No exclusive chapter window is identified, so retry from the save if the takeoff fails.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Challenging Tank",
+      "description": "Kinda hot in these Rhinos.",
+      "grade": "bronze",
+      "guide": "Head to Mile Zero Air Station on the island at the far southwest of the map. Look on the south side of the base for parked military tanks and get into one. Save before entering the area so you can retry if the approach goes wrong. No exclusive story cutoff is identified.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Sneakthief",
+      "description": "Rob a jewelry store without being detected.",
+      "grade": "bronze",
+      "guide": "Complete the Chapter 3 mission Yasmani's Jewelry Jobs to obtain the Snap Gun and unlock jewelry robberies. Richardson Jewelry & Diamonds in Vice City is a useful target. Use the Snap Gun on the locked back door; kicking the door triggers the alarm. In the back room, find the note containing the safe code, open the safe and leave without being seen. Save first for a clean retry; the trophy is not marked missable.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Maximum Withdrawal",
+      "description": "Rob 5 Bank Vaults and escape.",
+      "grade": "silver",
+      "guide": "Near the end of Chapter 4, take the optional mission That's Where The Money Is to unlock bank vault robberies. Tail an armored van to a large bank, then enter the vault while the guard has it open. Bring your partner because a solo character cannot carry every bag. Rob five vaults and escape for this trophy; continue to eight for 100%. A vault escape with your partner can also award Hot Together. Keep a manual save before attempting a robbery.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "A Classic Blitz Play",
+      "description": "Rob an Armored Truck and escape.",
+      "grade": "bronze",
+      "guide": "Find an Armored Truck, rob it and complete the escape. Prepare an exit route before committing to the job and stay clear until the pursuit ends. The supplied guidance does not confirm one required truck location or a special breach method, so none is assumed here. This trophy has no identified chapter cutoff.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "The Goodtime State",
+      "description": "Explore all of Leonida.",
+      "grade": "bronze",
+      "guide": "Explore the whole of Leonida, revisiting gaps in the map during side-content cleanup. Combine travel with vehicle scanning, WAiNK locations and collectible searches to reduce repeat journeys. An exact discovery boundary or percentage trigger is not confirmed in the supplied facts. No exclusive story window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "collectible",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Pest Control",
+      "description": "Rob an Illegal Operation belonging to each gang.",
+      "grade": "bronze",
+      "guide": "Rob at least one Illegal Operation owned by each of the nine gangs. Keep track of gang ownership: nine jobs against the same gang will not satisfy the requirement. During cleanup, continue through all 39 operations needed for 100%. No exclusive chapter cutoff is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "In The Beginning…",
+      "description": "Enjoy a cocktail with a view on Ocean Beach.",
+      "grade": "bronze",
+      "guide": "Go to Ocean Beach and enjoy a cocktail with a view, as the official description asks. The supplied guidance does not establish the precise venue, seat or time of day needed, so those details remain unconfirmed. Save before trying a promising interaction and watch for the trophy notification. No exclusive chapter cutoff is identified.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Capital Offense",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
+      "grade": "bronze",
+      "guide": "The official condition is to smash out of a vehicle showroom in classic style. The precise showroom, vehicle and sequence are unconfirmed in the supplied guidance, so this guide does not claim a tested route. Keep a manual save before investigating the clue and check for the trophy notification after any attempt. No exclusive chapter cutoff is identified.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Let’s Go Bowling",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
+      "grade": "bronze",
+      "guide": "Visit Kingpin Bowling, the Kolt & Associates illegal operation encountered in Chapter 2, and bring Sticky Bombs. Take all three key valuables: the luxury watch in an office, the shotgun on a table and the contents of the office safe, opened with a Sticky Bomb. Escape the police after collecting them. If you leave an item behind, the operation returns later; this trophy is not missable.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Personal Best",
+      "description": "A partnership with mass appeal.",
+      "grade": "bronze",
+      "guide": "Raise both Jason's and Lucia's Strength to maximum. Buy a gym membership and bring your partner to train beside you so both characters build the stat. Check both characters' progress rather than assuming one maximum stat is sufficient. No exclusive chapter cutoff is identified.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Actions Speak Louder",
+      "description": "Choices made (for better or worse).",
+      "grade": "bronze",
+      "guide": "Perform 500 actions that change your Criminal Profile. Robberies and fights contribute, so build this gradually alongside shop jobs, vaults and other criminal activities. The supplied guidance does not confirm that every repeated action qualifies; monitor profile changes rather than merely counting button presses. No exclusive story window is identified.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Bad Luck, I Guess",
+      "description": "Second time's the charm.",
+      "grade": "bronze",
+      "guide": "The official clue is Second time's the charm. The supplied facts do not confirm the exact event or interaction behind that clue, so a repeatable unlock method is unconfirmed. Keep chapter saves while playing and avoid treating guesses as requirements. This trophy is not flagged missable in the supplied list.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "The Truth Is Out There",
+      "description": "What the hell just happened?",
+      "grade": "bronze",
+      "guide": "Unlock method unconfirmed. The official description offers only a mysterious event, and the supplied sources do not establish a reproducible action, location or time. Do not rely on invented UFO routes or other guesses; preserve chapter saves while exploring. This trophy is not identified as missable in the supplied list.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Ten Pin",
+      "description": "Bowl 'em over with a melee drive-by.",
+      "grade": "bronze",
+      "guide": "The official condition calls for a melee drive-by that bowls targets over. The exact target count, vehicle and input sequence are unconfirmed in the supplied guidance, so no tested route is claimed here. Preserve a manual save while investigating and do not treat an assumed target count as a requirement. No exclusive chapter cutoff is identified.",
+      "hidden": true,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Dime on the Dollar",
+      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+      "grade": "bronze",
+      "guide": "Earn a cumulative $250,000 by laundering Marked Bills through your contacts. Bank and payday loan jobs supply marked bills; take those proceeds to contacts who can launder them. Track the total earned through laundering rather than the cash currently in your wallet. No exclusive chapter window is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Treat Yo Self",
+      "description": "Spend $100,000 across all shops.",
+      "grade": "bronze",
+      "guide": "Spend a cumulative $100,000 across shops of every kind. Useful purchases can count toward this while you prepare for other trophies, so avoid spending solely for the counter until cleanup. The requirement concerns total spending, not a single purchase or your remaining balance. No exclusive chapter cutoff is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "activity",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Little Boxes",
+      "description": "Purchase all garage properties.",
+      "grade": "bronze",
+      "guide": "After the Chapter 2 mission Daily Driver, open the Vice City Real Estate app and buy all eight garage properties. Budget about $160,000 in total. Garages received through the story do not count among these purchases. Buying them early also provides the free spaces required for On the Spot; no exclusive chapter cutoff is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "collectible",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "On the Spot",
+      "description": "Register 10 vehicles to the Scooter Bros app.",
+      "grade": "bronze",
+      "guide": "The Chapter 2 mission Moses opens Scooter Bros registration. Take a stolen car to Moses, choose Respray and then Register; from Chapter 3, a standard tracker at Pay 'n' Spray can also register cars. Each registered vehicle needs an empty garage space, so purchase garages first and use cheap cars. Register ten vehicles in total. No exclusive chapter cutoff is identified.",
+      "hidden": false,
+      "missable": false,
+      "kind": "collectible",
+      "sources": [
+        {
+          "name": "KeenGamer · platinum roadmap & methods",
+          "url": "https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/"
+        },
+        {
+          "name": "Output Lag · trophy list & requirements",
+          "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+        },
+        {
+          "name": "Radio Times · trophy reference",
+          "url": "https://www.radiotimes.com/technology/gaming/gta-6-trophies-achievements-list/"
+        },
+        {
+          "name": "GTA Vice City Hub · achievement reference",
+          "url": "https://www.gtavicecityhub.com/achievements"
+        }
+      ]
+    }
+  ],
+  "editorial": "Official wording preserved from the supplied list. Guides authored for this entry from the supplied verified research; uncertain methods are labeled."
 }

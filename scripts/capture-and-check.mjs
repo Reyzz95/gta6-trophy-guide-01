@@ -1,0 +1,82 @@
+// Run with a local Playwright installation: PLAYWRIGHT_MODULE=/path/to/playwright-core/index.mjs node scripts/capture-and-check.mjs
+// This checks real browser interactions and captures only browser-rendered pixels.
+import { spawn } from 'node:child_process';
+import { mkdir, writeFile, readdir, unlink } from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import { pathToFileURL } from 'node:url';
+const modulePath = process.env.PLAYWRIGHT_MODULE || 'playwright';
+const { chromium } = await import(modulePath.startsWith('/') ? pathToFileURL(modulePath).href : modulePath);
+const server = spawn(process.execPath, ['serve.ts', '--port', '8080'], { stdio: ['ignore', 'pipe', 'pipe'] });
+let browser;
+try {
+  await new Promise((resolve, reject) => {
+    server.once('error', reject); server.once('exit', code => reject(new Error('Local server exited: '+code)));
+    server.stdout.once('data', resolve); server.stderr.on('data', data => process.stderr.write(data));
+  });
+  browser = await chromium.launch({ executablePath: process.env.CHROME_BINARY || '/opt/meta-chromium/chrome', headless: true, args: ['--no-sandbox', '--disable-dev-shm-usage', '--hide-scrollbars', ...JSON.parse(process.env.CHROME_ARGS || '[]')] });
+  const context = await browser.newContext({ viewport: { width: 1280, height: 800 }, acceptDownloads: true });
+  const page = await context.newPage();
+  const errors = [], unexpectedRequests = [];
+  page.on('pageerror', error => errors.push(error.message));
+  page.on('request', request => { if(!request.url().startsWith('http://127.0.0.1:8080/')) unexpectedRequests.push(request.url()); });
+  await page.goto('http://127.0.0.1:8080/');
+  await page.waitForSelector('.trophy-row');
+  assert.equal(await page.locator('.trophy-row').count(),55);
+  assert.equal(await page.locator('#spoilers').isChecked(),true);
+  assert.equal(await page.getByText('Hidden story trophy',{exact:true}).count(),17);
+  await page.locator('[data-earn="2"]').check();
+  assert.equal(await page.locator('#earned-count').textContent(),'1');
+  assert.equal(await page.locator('.trophy-name').filter({hasText:'Just Like Paradise'}).count(),1);
+  await page.reload(); await page.waitForSelector('.trophy-row');
+  assert.equal(await page.locator('[data-earn="2"]').isChecked(),true);
+  const downloadPromise=page.waitForEvent('download');await page.locator('#export').click();
+  const download=await downloadPromise;
+  await download.saveAs('/tmp/leonida-progress-test.json');
+  await page.locator('[data-earn="2"]').uncheck();
+  await page.locator('#import-file').setInputFiles('/tmp/leonida-progress-test.json');
+  await page.waitForFunction(()=>document.querySelector('#earned-count').textContent==='1');
+  await page.locator('#import-file').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{"earned":["Made-up trophy"]}')});
+  await page.waitForFunction(()=>document.querySelector('#toast').textContent.includes('valid trophy'));
+  assert.equal(await page.locator('#earned-count').textContent(),'1');
+  await page.locator('[data-kind="online"]').click();assert.equal(await page.locator('.trophy-row').count(),0);
+  assert.match(await page.locator('.empty-state').textContent(),/No online/);
+  await page.locator('[data-kind="all"]').click();
+  await page.locator('#grade').selectOption('silver');assert.equal(await page.locator('.trophy-row').count(),6);
+  await page.locator('#grade').selectOption('all');
+  await page.locator('#status').selectOption('earned');assert.equal(await page.locator('.trophy-row').count(),1);
+  await page.locator('#status').selectOption('unearned');assert.equal(await page.locator('.trophy-row').count(),54);
+  await page.locator('#status').selectOption('all');
+  // Search includes guide text, so the platinum and meditation guides also match.
+  await page.locator('#search').fill('Positive Mental');assert.equal(await page.locator('.trophy-row').count(),3);
+  assert.equal(await page.locator('.trophy-row [data-open="28"]').count(),1);
+  await page.locator('#search').fill('');
+  await page.locator('[data-earn="2"]').uncheck();await page.locator('.spoiler-control').click();
+  assert.equal(await page.locator('#spoilers').isChecked(),false);
+  assert.equal(await page.getByText('Hidden story trophy',{exact:true}).count(),0);
+  await page.waitForFunction(()=>!document.querySelector('#toast').classList.contains('visible'));
+  await page.waitForFunction(()=>getComputedStyle(document.querySelector('#toast')).opacity==='0');
+  await page.evaluate(() => window.scrollTo(0,0));
+  await mkdir('screenshots',{recursive:true});
+  // Remove only old image captures, after the browser has passed the functional checks.
+  for(const file of await readdir('screenshots'))if(/\.(jpg|jpeg|png)$/i.test(file))await unlink('screenshots/'+file);
+  await page.screenshot({path:'screenshots/1-checklist.jpg',type:'jpeg',quality:80});
+  await page.locator('[data-open="28"]').first().click();
+  await page.waitForSelector('body.guide-focused');
+  await page.evaluate(() => window.scrollTo(0,0));
+  assert.equal(await page.locator('#guide-panel .sources a').count(),4);
+  const sourcesBox=await page.locator('#guide-panel .sources').boundingBox();
+  assert.ok(sourcesBox.y+sourcesBox.height<=800,'Guide sources must fit the capture');
+  await page.screenshot({path:'screenshots/2-guide.jpg',type:'jpeg',quality:80});
+  await page.locator('[data-nav="roadmap"]').click();await page.waitForSelector('#roadmap-view:not([hidden])');
+  assert.equal(await page.locator('.stage').count(),4);
+  await page.screenshot({path:'screenshots/3-roadmap.jpg',type:'jpeg',quality:80});
+  await page.locator('[data-nav="checklist"]').click();await page.locator('.spoiler-control').click();
+  assert.equal(await page.locator('#spoilers').isChecked(),true);
+  await page.locator('[data-kind="story"]').click();
+  await page.screenshot({path:'screenshots/4-spoiler.jpg',type:'jpeg',quality:80});
+  assert.deepEqual(errors,[]);assert.deepEqual(unexpectedRequests,[]);
+  await context.setOffline(true);await page.locator('[data-kind="missable"]').click();
+  assert.equal(await page.locator('.trophy-row').count(),1);
+  await writeFile('/tmp/leonida-browser-dom.html',await page.content());
+  console.log('PASS: 55 trophies; spoiler protection; earned state + reload; export/import; invalid import; filters; sources; roadmap; offline interactions; four screenshots.');
+} finally { if(browser)await browser.close();server.kill(); }
